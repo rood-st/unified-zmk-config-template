@@ -89,10 +89,10 @@ keymap {
 	
     layer_1 {
         bindings = <
-            &trans    &trans    &N7     &N8     &N9     &M0         &trans  &APOS   &LBKT   &RBKT   &BSLH   &trans
-            &trans    &trans    &N4     &N5     &N6     &EQUAL      &trans  &SEMI   &UP     &trans  &trans  &trans
-            &trans    &trans    &N1     &N2     &N3     &MINUS      &trans  &LEFT   &DOWN   &RIGHT  &trans  &trans
-            &trans    &trans                    &trans  &trans      &trans  &LSHFT                  &trans  &trans
+            &trans    &trans    &kp N7  &kp N8  &kp N9  &kp M0          &trans  &kp APOS    &kp LBKT    &kp RBKT    &kp BSLH    &trans
+            &trans    &trans    &kp N4  &kp N5  &kp N6  &kp EQUAL       &trans  &kp SEMI    &kp UP      &trans      &trans      &trans
+            &trans    &trans    &kp N1  &kp N2  &kp N3  &kp MINUS       &trans  &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &trans
+            &trans    &trans                    &trans  &trans          &trans  &kp LSHFT                           &trans      &trans
         >;
     };
 
