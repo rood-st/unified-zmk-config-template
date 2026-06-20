@@ -78,10 +78,10 @@ keymap {
 
     default_layer {
         bindings = <
-            &kp GRAVE   &kp Q       &kp W   &kp E       &kp R           &kp T   &kp Y       &kp U   &kp I       &kp O       &kp MINUS   &kp BSPC
-            &kp TAB     &kp A       &kp S   &kp D       &kp F           &kp G   &kp H       &kp J   &kp K       &kp L       &kp P       &kp BSPC
-            &kp LSHFT   &kp Z       &kp X   &kp C       &kp V           &kp B   &kp N       &kp M   &kp COMMA   &kp DOT     &kp SLASH   &kp LSHFT
-            &kp LCTRL   &kp LALT            &lp 1 SPACE &kp SPACE       &mo 1   &kp ENTER                                   &mo 2       &kp LGUI
+            &kp GRAVE   &kp Q   &kp W   &kp E   &kp R       &kp T           &kp Y   &kp U   &kp I       &kp O       &kp MINUS   &kp BSPC
+            &kp TAB     &kp A   &kp S   &kp D   &kp F       &kp G           &kp H   &kp J   &kp K       &kp L       &kp P       &kp BSPC
+            &kp LSHFT   &kp Z   &kp X   &kp C   &kp V       &kp B           &kp N   &kp M   &kp COMMA   &kp DOT     &kp SLASH   &kp LSHFT
+            &kp LCTRL   &kp LALT                &lp 1 SPACE &kp SPACE       &mo 1   &kp ENTER                       &mo 2       &kp LGUI
         >;
 		//&msc_ec_lとrは、上のビヘイビアで作ったもの。
         sensor-bindings = <&msc_ec_l SCRL_LEFT SCRL_RIGHT &msc_ec_r SCRL_DOWN SCRL_UP>;
@@ -89,10 +89,10 @@ keymap {
 	
     layer_1 {
         bindings = <
-            &trans    &trans    &kp N7  &kp N8  &kp N9  &kp M0          &trans  &kp APOS    &kp LBKT    &kp RBKT    &kp BSLH    &trans
-            &trans    &trans    &kp N4  &kp N5  &kp N6  &kp EQUAL       &trans  &kp SEMI    &kp UP      &trans      &trans      &trans
-            &trans    &trans    &kp N1  &kp N2  &kp N3  &kp MINUS       &trans  &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &trans
-            &trans    &trans                    &trans  &trans          &trans  &kp LSHFT                           &trans      &trans
+            &trans    &trans    &kp N7  &kp N8  &kp N9  &kp M0          &trans  &kp APOS    &kp LBKT    &kp RBKT    &trans  &trans
+            &trans    &trans    &kp N4  &kp N5  &kp N6  &kp EQUAL       &trans  &kp SEMI    &kp UP      &trans      &trans  &trans
+            &trans    &trans    &kp N1  &kp N2  &kp N3  &kp MINUS       &trans  &kp LEFT    &kp DOWN    &kp RIGHT   &trans  &trans
+            &trans    &trans                    &trans  &trans          &trans  &kp LSHFT                           &trans  &trans
         >;
     };
 
